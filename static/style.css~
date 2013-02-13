@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face
+{
+font-family: baveuse;
+src: url('baveuse.ttf'),
+     url('baveuse.eot');
+}
+@font-face
+{
+font-family: baveuse3d;
+src: url('baveuse 3d.ttf'),
+     url('baveuse 3d.eot');
+}
+
+.bg
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+h1
+{
+    font-family:baveuse;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin: 20px 0 0 20px;
+    font-size: 400%;
+}
+
+.quotecontainer
+{
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    max-width: 65%;
+}
+
+.quote
+{
+    font-family: baveuse;
+    color: #111;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 200%;
+    background: url('bg_white.png');
+    padding-left: 30px;
+    min-height: 38px;
+}
+
+p
+{
+    margin: 5px;
+    padding: 10px;
+}
+
+.name
+{
+    color: #333;
+}
+
+.leftbutton
+{
+    opacity: .65;
+    color: white;
+    font-size: 500%;
+}
+
+.leftnav
+{
+    font-family: helvetica;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin: 0 0 0 25px;
+}
+
+.leftbutton a, .rightnav a
+{
+    text-decoration: none;
+    color: #DDD;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+
+.rightnav
+{
+    color: white;
+    font-size: 500%;
+    font-family: helvetica;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin: 0 25px 0 0;
+    opacity: .65;
+}
+
+.leftbutton:hover, .rightnav:hover
+{
+    opacity: 1;
+    color: white;
+}
+
+.under
+{
+    color: white;
+    margin: 10px 0 0 0;
+}
+
+.underspan
+{
+    background-color: black;
+    padding: 5px;
+}
+
+.underspan a
+{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.random
+{
+    position: absolute;
+    top: 5px;
+    left: 7px;
+}
