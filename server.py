@@ -1,8 +1,11 @@
 import os
-from flask import Flask, render_template, Markup, abort
+from flask import Flask, render_template, Markup, abort, session
 
 app = Flask(__name__)
 app.debug=True
+
+### Hint: Change the below
+app.secret_key = r'SuperDuperSecretKey'
 
 # Render and return index.html
 @app.route('/')
