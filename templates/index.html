@@ -2,10 +2,17 @@
 <html>
     <head>
         <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/default.css') }}">
-		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+        <!-- <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/bootstrap-responsive.min.css') }}"> -->
+        
+		<script src="{{ url_for('static', filename='js/jquery-1.9.1.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
     </head>
     <body>
+    <h1>Hello, world! <small>jQuery + Bootstrap</small></h1>
     </body>
     <script>
     </script>
